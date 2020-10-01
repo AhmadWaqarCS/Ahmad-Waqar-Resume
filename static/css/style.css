@@ -7,23 +7,23 @@ body {
 }
 
 .side-section {
-	float: left;
 	/*box-shadow: 5px 5px 25px #1f1f1f;*/
-	height: 100%;
-	width: 30%;
+	height: 110%;
+	width: 90%;
 	background: #ff5555;
 	position: absolute;
 	border-radius: 5%;
-	top: 23%;
-	left: 2%;
+	top: 10%;
 	transition: 0.5s;
+	float: right;
+	left: 5%;
 }
 
 .side-img img {
 	position: absolute;
 	border-radius: 50%;
-	top: -25%;
-	left: 12%;
+	top: -10%;
+	left: 35%;
 	border: 30px solid #f1f1f1;
 	background: #ff5555;
 	outline: none;
@@ -37,7 +37,7 @@ body {
 
 .basic {
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	left: 5%;
 	width: 90%;
 }
@@ -47,11 +47,19 @@ body {
 	display: block;
 	line-height: 15px;
 	font-family: arial;
+	font-size: 300%;
 	word-spacing: 5px;
 }
 
+.basic h2 {
+	color: #f1f1f1;
+	display: block;
+	font-family: arial;
+	font-size: 300%;
+}
+
 hr {
-	border: 1px solid #d0d0d0;
+	border: 2px solid #d0d0d0;
 }
 
 .skill {
@@ -61,6 +69,7 @@ hr {
 	width: 90%;
 	color: #f1f1f1;
 	font-family: Arial;
+	font-size: 300%;
 	word-spacing: 5px;
 }
 
@@ -70,9 +79,9 @@ hr {
 
 .full-bar {
 	width: 100%;
-	height: 17px;
+	height: 50px;
 	background: #ff5555;
-	border-radius: 15px;
+	border-radius: 30px;
 	transition: 0.5s;
 }
 
@@ -84,7 +93,7 @@ hr {
 	width: 100%;
 	height: 100%;
 	background-color: purple;
-	border-radius: 15px;
+	border-radius: 30px;
 	justify-content: center;
 	align-items: center;
 }
@@ -105,19 +114,20 @@ hr {
 	left: 5%;
 	color: #f1f1f1;
 	font-family: Arial;
+	font-size: 300%;
 	word-spacing: 5px;
 }
 
 .exp-section {
 	float: right;
 	/*box-shadow: 5px 5px 25px #1f1f1f;*/
-	height: 100%;
-	width: 60%;
+	height: 20%;
+	width: 90%;
 	background: #ff5555;
 	position: absolute;
 	border-radius: 5%;
-	top: 23%;
-	right: 2%;
+	top: 125%;
+	left: 5%;
 	transition: 0.5s;
 }
 
@@ -133,6 +143,7 @@ hr {
 	line-height: 15px;
 	font-family: arial;
 	word-spacing: 5px;
+	font-size: 300%;
 }
 
 .exp-body {
@@ -147,18 +158,18 @@ hr {
 	background-color: #f1f1f1;
 	color: #ff5555;
 	font-weight: bold;
-	border-radius: 10px;
-	height: 17px;
-	width: 75px;
+	border-radius: 20px;
+	height: 40px;
+	width: 200px;
 	text-align: center;
 }
 
 .footer {
 	background: #ff5555;
 	width: 100%;
-	height: 100px;
+	height: 150px;
 	position: absolute;
-	top: 130%;
+	top: 150%;
 	justify-content: center;
 	align-items: center;
 }
@@ -169,8 +180,8 @@ hr {
 
 .social {
 	background: #ff0000;
-	width: 75px;
-	height: 75px;
+	width: 125px;
+	height: 125px;
 	margin: 10px;
 	border-radius: 50%;
 	position: absolute;
@@ -192,33 +203,10 @@ hr {
 }
 
 .st {
-	right: 15%;
+	right: 30%;
 	background-color: orange;
 }
 
 .social:hover {
 	border-color: #ff5555;
-}
-
-
-@media screen and (max-width: 800px) {
-	.side-section {
-		width: 90%;
-		left: 5%;
-	}
-	.side-img img {
-		left: 20%;
-	}
-	.exp-section {
-		width: 90%;
-		top: 100%;
-		margin-top: 200px;
-		left: 5%;
-	}
-	.footer {
-		top: 245%;
-	}
-	.st {
-		right: 30%;
-	}
 }
